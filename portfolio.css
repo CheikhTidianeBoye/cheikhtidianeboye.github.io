@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    color: aliceblue;
+}
+/*****reglage menu navigation***/
+
+.navbar{
+    background-color: rgb(10, 83, 105);
+    position: fixed;
+    width: 100%;
+    position: relative;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+.navbar .container .menu li{
+    display: inline-block;
+    
+}
+.navbar .container .menu ul li{
+padding: 3px 10px;
+}
+li :hover{
+    background-color: rgb(32, 35, 37);
+    transition: 0.6s;
+    padding: 8px;
+   
+}
+.container .logo span{
+    color: black;
+    font-size: 35px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+}
+.logo :hover{
+    transition: 0.6s;
+    padding: 5px;
+}
+
+/********section1*****/
+.sect1{
+    background: url('Fixe-EPSI-2.jpg');
+    opacity: 0.9;
+    height: 600px;
+    
+}
+.container2{
+    position: absolute;
+    color: rgb(34, 69, 99);
+    margin-top: 300px;
+    font-size: 37px;
+}
+.sect1 .container2 .hello{
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+} 
+.nom{
+    text-transform: uppercase;
+    color: rgb(9, 157, 202);
+}
+
+/********section2*****/
+.sect2{
+    text-align: center;
+    background-color:rgb(34, 69, 99);
+    margin-top: -50px;
+    padding: 50px;
+}
+h2{
+    margin-top: 50px;
+    
+}
+.card {
+     display: inline-flex;
+    text-align: center;
+}
+img{
+    text-align: center;
+}
+.container3{
+     margin-top: 80px;
+ }
+.card-text {
+    background-color: rgb(44, 88, 114);
+    transition: 0.8s;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card-text:hover{
+    background-color: rgb(29, 28, 28);
+}
+/********section3*****/
+.sect3{
+    background-color:rgb(34, 69, 99);
+    text-align: center;
+    background-color:rgb(34, 69, 99);
+    margin-top: -50px;
+    padding: 80px;
+}
+
+/********footer*****/
+
+.foot4{
+    background-color: rgb(34, 69, 99);
+    padding: 10px;
+    text-align: center;
+}
+form{
+    text-align: left;
+
+}
+input{
+    padding: 10px;
+   color: black;
+}
+textarea{
+    color: black;
+}
+.name{
+    margin: 10px;
+}
+.mail{
+    margin: 10px;
+}
+button{
+    color: rgb(34, 69, 99);
+}
+.social{
+    text-align: right;
+    margin-top: 20px;
+}
+.social :hover{
+    background-color: black;
+    padding: 5px;
+    transition: 0.8s;
+}
+
