@@ -107,23 +107,17 @@
     <div class="social">
 
     </div>
-    <form method="POST" action="web.php">
-      <div class="name">
-       <label for="name">Nom:</label>
-       <input type="text" id="name" name="user_name">
-      </div>  
-
-      <div class="mail">
-          <label for="mail">E-mail:</label>
-          <input type="text" id="mail" name="user_mail">
-         </div>  
-
-         <div class="message">
-          <label for="message">Message:</label>
-           <textarea id="message" name="user_message"></textarea>
-           <input type="submit" value="ENVOYER">
-         </div>  
-   </form>
+    <form action="web.php" method="POST">
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">EMAIL</label>
+      <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">MESSAGE</label>
+      <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3"></textarea>
+      <input type="submit" name="ENVOYER">
+    </div>
+  </form>
    <div class="social">
    <a href="#"><img height="30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1200px-Instagram_logo_2016.svg.png" alt=""></a>
    <a href="#"><img height="30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/800px-LinkedIn_logo_initials.png" alt=""></a> 
